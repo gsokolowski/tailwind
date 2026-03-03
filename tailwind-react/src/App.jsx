@@ -3,15 +3,18 @@ import land from './assets/land-1.png'
 
 function App() {
   return (
-    <section className='grid gap-8 justify-items-center'>
-      <div className='px-5'>
+    <section className='grid gap-8 justify-items-center 
+                      max-2xl:bg-blue-100
+                        md:grid-cols-2'
+                        >
+      <div className='pt-5 px-5'>
         <img 
           src={land} 
           alt="Land" 
           className="w-full max-w-[400] h-auto rounded-lg shadow-lg" 
         />
       </div>
-      <div className='px-5'>
+      <div className='pt-5 px-5 md:pl-0 pr-10'>
         <h1 className='text-4xl font-medium'>Headline</h1>
         <p className="my-5">
           Morbi non suscipit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sed dui blandit, faucibus mauris id, laoreet elit. Cras dictum ultrices iaculis. In imperdiet euismod egestas. Phasellus placerat eleifend lacus, vel porta enim volutpat non. Quisque suscipit sit amet nisi id maximus. Curabitur id venenatis velit, et congue leo. Nulla scelerisque feugiat enim non suscipit.
