@@ -4,7 +4,7 @@ import land from './assets/land-1.png'
 function App() {
   return (
     <section className='grid gap-8 justify-items-center 
-                      max-2xl:bg-blue-100
+                      max-2xl:bg-blue-100 
                         md:grid-cols-2'
                         >
       <div className='pt-5 px-5'>
